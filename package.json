@@ -1,0 +1,27 @@
+{
+  "name": "angular-localstoragedb",
+  "version": "1.0.0",
+  "description": "A simple database layer for localStorage",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start karma.conf.js"
+  },
+  "keywords": [
+    "angular",
+    "localstorage",
+    "database"
+  ],
+  "author": "Roberto von Schoettler",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-cli": "^0.1.2",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.6"
+  }
+}

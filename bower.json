@@ -1,0 +1,30 @@
+{
+  "name": "angular-localstoragedb",
+  "version": "1.0.0",
+  "authors": [
+    "Roberto von Schoettler <roberto.vonschoettler@gmail.com>"
+  ],
+  "description": "A simple database layer for localStorage",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "database",
+    "localstorage"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "#1.4.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.8"
+  }
+}

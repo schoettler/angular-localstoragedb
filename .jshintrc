@@ -1,0 +1,42 @@
+{
+  "node": true,
+  "browser": true,
+  "esnext": true,
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": false,
+  "newcap": false,
+  "noarg": true,
+  "quotmark": "single",
+  "regexp": true,
+  "undef": true,
+  "unused": "vars",
+  "strict": true,
+  "trailing": true,
+  "smarttabs": true,
+  "white": false,
+  "expr": true,
+  "globals": {
+    "angular": true
+  },
+  "curly": false,
+  "predef": [
+    "jasmine",
+    "describe",
+    "xdescribe",
+    "before",
+    "beforeEach",
+    "after",
+    "afterEach",
+    "it",
+    "xit",
+    "it",
+    "inject",
+    "expect",
+    "spyOn"
+  ]
+}
