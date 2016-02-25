@@ -38,16 +38,18 @@
     function instantiateStorage($window) {
 
       var db_id,
-      db_prefix = 'db_',
-      db_default = getDefaultDatabase(),
-      db = localStorage[db_default] || use(db_default),
-      db_new = false; // This flag determines whether a new database
-                      // was created during useDatabase
+        db_prefix = 'db_',
+        db_new = false, // This flag determines whether a new database
+                        // was created during useDatabase
+        db = null;
 
-      if (db.version == null || db_version > db.version) {
-        drop();
-        use(db_name);
-      }
+    use(db_name);
+
+    if (db.version == null || db_version > db.version) {
+      // If a newer version has been declared, delete the existing database
+      drop();
+      use(db_name);
+    }
 
       // ______________________ public methods
 
