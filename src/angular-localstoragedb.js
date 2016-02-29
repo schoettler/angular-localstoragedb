@@ -391,7 +391,7 @@
               commit();
               db_new = true;
             }
-          } else if (db.version != null || db_version > db.version) {
+          } else if (db.version == null || db_version > db.version) {
             drop();
             use(db_name);
           }
